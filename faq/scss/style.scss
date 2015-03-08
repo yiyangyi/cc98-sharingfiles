@@ -1,0 +1,82 @@
+@import 'bourbon';
+
+@import '../partials/variables'; // colors, fonts etc...
+
+@import '../partials/mixins' // custom mixins
+
+@import '../partials/layout' // responsive grid and media queries
+
+/* -------------------------
+
+Primary style
+
+------------------------- */
+
+*, *::after, *::before {
+	@include: box-sizing(border-box);
+}
+
+*, *::after, *::before {
+	content: '';
+}
+
+body {
+
+}
+
+a {
+	color: $color-2;
+	text-decoration: none;
+}
+
+/* -------------------------
+
+Main components
+
+-------------------------- */
+
+.faq {
+
+}
+
+.faq-categories {
+
+}
+
+.faq-items {
+
+}
+
+.faq-group {
+
+}
+
+.faq-trigger {
+
+}
+
+.faq-content {
+
+}
+
+.close-panel {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
